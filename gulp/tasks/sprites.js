@@ -15,7 +15,7 @@ var config = {
         variables: {
             replaceSvgWithPng: function(){
                 return function(sprite, render){
-                    return render(sprite).split('.svg').join('.png')
+                    return render(sprite).split('.svg').join('.png');
                 }
             }
         },
