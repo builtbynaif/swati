@@ -3,7 +3,13 @@
     padding-bottom: 2.5rem;
 
     @mixin at530 {
-        padding-left: 94px;
+        padding-left: 135px;
+    }
+
+    & ul {
+        list-style-type: none;
+        line-height: 1.4;
+        padding-left: 0;
     }
 
     &__icon {

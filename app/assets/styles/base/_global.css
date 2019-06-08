@@ -6,6 +6,7 @@ body{
 img{
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 * {
@@ -14,4 +15,8 @@ img{
 
 a{
     color: $mainOrange;
+}
+
+.white{
+    color: #fff !important;
 }

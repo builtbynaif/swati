@@ -1,0 +1,238 @@
+.responsive {
+    position: relative;
+
+    div {
+        outline: none;
+        padding: 5px;
+        display: flex;
+
+        @mixin at530 {
+            padding: 20px;
+        }
+    }
+
+    &__interior {
+
+
+        @mixin at778 {
+            width: 200px;
+            height: 300px;
+        }
+    }
+
+    &__slide {
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-backface-visibility: hidden;
+        text-align: center;
+        background-color: transparent;
+        height: 415px;
+        transition: all .6s ease-out;
+        border-radius: 5px;
+        border: solid 1px transparent;
+
+        & ul {
+            padding-left: 15px;
+            color: #fff;
+            line-height: 1.35;
+            list-style: none;
+        }
+        
+        & img{
+            width: 30%;
+            height: auto;
+        }
+    }
+
+    &__slide:hover {
+        border: solid 1px #fff;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+    }
+
+    &__overlay {
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, .68);
+        color: #FFF;
+
+        @mixin at778 {
+            width: 50%;
+        }
+    }
+
+}
+
+.slick-dots {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    bottom: 15px;
+
+    @mixin at778 {
+        top: 90%;
+    }
+}
+
+.slick-dots {
+
+    li {
+        list-style: none;
+        display: inline;
+    }
+
+    li button {
+        display: inline-block;
+        text-indent: -9999px;
+        font-size: 0;
+        line-height: 0;
+        width: 10px;
+        height: 10px;
+        background-color: rgba(255, 255, 255, .5);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+        border-radius: 50%;
+        border: none;
+        margin: 0 4px;
+        padding: 0;
+        outline: none;
+        transition: background-color .3s ease-out;
+        cursor: pointer;
+    }
+
+    .slick-active button {
+        background-color: #FFF;
+    }
+
+}
+
+.product-name {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+
+[hidden] {
+    display: none;
+}
+
+/* Slider */
+
+.slick-slider {
+    position: relative;
+
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+    margin: 0 auto;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}

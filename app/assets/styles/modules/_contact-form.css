@@ -1,0 +1,12 @@
+.contact-form input[type=text]{
+    display: block;
+    margin: 3% auto;
+    text-align: left;
+    padding:  7px;
+    width: 100%;
+    font-size: 1rem;
+} 
+
+.icon--mail{
+    display: inline-block;
+}

@@ -16,4 +16,8 @@
             font-size: 1.25rem;
         }
     }
+    &--smallest{
+        padding: .5rem .9rem;
+        margin-bottom: 10px;
+    }
 }
