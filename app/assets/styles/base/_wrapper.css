@@ -6,11 +6,18 @@
     margin-left: auto;
     margin-right: auto;
 
+    &--product {
+        width: 80%;
+        margin: 10% auto;
+        max-width: 1236px;
+        overflow: hidden;
+    }
+
     &--medium {
         max-width: 976px;
     }
-    
-    &--narrow{
+
+    &--narrow {
         max-width: 470px;
     }
 
@@ -23,8 +30,8 @@
             padding-right: 18px;
         }
     }
-    
-        &--no-padding-until-large {
+
+    &--no-padding-until-large {
         padding-left: 0;
         padding-right: 0;
 

@@ -1,0 +1,30 @@
+.contact {
+    display: block;
+
+    @mixin at530 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    &--inner {
+        @mixin at530 {
+            flex-basis: 45%;
+            min-width: 250px;
+        }
+
+        & iframe {
+            width: 100%;
+        }
+
+        ul {
+            list-style: none;
+            margin-left: -40px;
+        }
+        
+        li{
+            margin-bottom: 3px;
+        }
+    }
+}

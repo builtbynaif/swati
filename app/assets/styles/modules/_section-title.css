@@ -5,6 +5,8 @@
 
     @mixin at530 {
         font-size: 3.75rem;
+        margin:0 ;
+        padding-bottom: 25px;
     }
 
     strong {

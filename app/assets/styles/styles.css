@@ -23,3 +23,7 @@
 @import "modules/_clientele";
 @import "modules/_contact-form"; 
 @import "modules/_modalm";  
+@import "modules/_header-area"; 
+@import "modules/_single-product"; 
+@import "modules/_contact"; 
+@import "modules/_hero-slider"; 

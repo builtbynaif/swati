@@ -22,13 +22,8 @@
     }
 
     &--blue {
-        background-color: $mainBlue;
+        background-color: #fff;
         color: #fff;
-        
-          @mixin at1010 {
-                background: url('../../assets/images/office1.jpg') top center no-repeat;
-                background-size: cover;  
-        }
     }
 
     &--testimonials {
@@ -37,7 +32,7 @@
 
         @mixin at1010 {
             &.lazyloaded {
-                background: url('../../assets/images/meeting.jpg') top center no-repeat;
+                background: url('../../assets/images/product-bgimg.jpg') top center no-repeat;
                 background-size: cover;
             }
         }
