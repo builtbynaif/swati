@@ -10,7 +10,7 @@ class Responsive {
     initSlider() {
         this.els.slick({
             dots: true,
-            autoplay: true,
+            autoplay: false,
             infinite: true,
             arrows: false,
             speed: 400,

@@ -7,8 +7,8 @@
     margin-right: auto;
 
     &--product {
-        width: 80%;
-        margin: 10% auto;
+        width: 90%;
+        margin:0 auto;
         max-width: 1236px;
         overflow: hidden;
     }
@@ -53,5 +53,17 @@
             margin-bottom: 3.875rem;
 
         }
+    }
+    
+    &--bgimg{
+        background-image: url(../../assets/images/bgimg6.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    &--bgimg1{
+        background-image: url(../../assets/images/bgimg2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }

@@ -27,3 +27,5 @@
 @import "modules/_single-product"; 
 @import "modules/_contact"; 
 @import "modules/_hero-slider"; 
+@import "modules/_events"; 
+@import "modules/_feat-dist";

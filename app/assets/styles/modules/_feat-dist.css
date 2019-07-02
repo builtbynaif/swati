@@ -1,0 +1,23 @@
+.featured--distellery {
+    display: block;
+
+    @mixin at530 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--inner {
+            flex-basis: 30%;
+        }
+    }
+}
+
+.less-left {
+    display: none;
+
+    @mixin at530 {
+        margin: 0 0 0 -190px;
+        display: block;
+        transition: .55s cubic-bezier(0.25, 0.46, 0.45, 0.94) opacity, .55s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+}

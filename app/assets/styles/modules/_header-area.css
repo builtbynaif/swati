@@ -7,6 +7,12 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    
+    &--para{
+        color: #fff;
+        padding: 7px 0;
+        margin-top: -25px;
+    }
 
     &--headline {
         color: #fff;
@@ -14,6 +20,7 @@
         font-size: 2rem;
         letter-spacing: 0.05em;
         text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7);
+        font-family: 'genericaregular';
 
         @mixin at530 {
             font-size: 3rem;

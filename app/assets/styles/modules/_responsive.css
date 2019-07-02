@@ -26,10 +26,10 @@
         -webkit-backface-visibility: hidden;
         text-align: center;
         background-color: rgba(255, 255, 255, 0.8);
-        height: 415px;
+/*        height: 415px;*/
         transition: all .6s ease-out;
         border-radius: 5px;
-        border: solid 1px #000;
+/*        border: solid 1px #000;*/
 
         & ul {
             padding-left: 15px;

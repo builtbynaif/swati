@@ -1,0 +1,40 @@
+.events{
+    display: block;
+    @mixin at530{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    }
+    &--inner{
+        display: block;
+        @mixin at530{
+        flex-basis: 300px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        &:nth-child(2){
+            flex-direction: column-reverse;
+        }
+        }
+        &--inner--text{
+            background-color: #f1f1f1;
+            height: 300px;
+            padding:25% 15%;
+        }
+    }
+    &--heading{
+        width: 100%;
+        text-align: center;
+        margin: 5% auto;
+        font-size: 2.75rem;
+        font-weight: 300;
+        letter-spacing: 0.05em;
+        
+        &--less-m{
+            margin-bottom: 0;
+        }
+    }
+}
