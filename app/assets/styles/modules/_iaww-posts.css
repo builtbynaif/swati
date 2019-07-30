@@ -1,0 +1,73 @@
+.iaww-posts {
+    display: block;
+    padding: 10px 0;
+    border-bottom: solid 1px #eee;
+
+    @mixin at778 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    &--inner {
+        padding-top: 10px;
+
+        @mixin at778 {
+            flex-basis: 60%;
+            padding-top: 0;
+        }
+    }
+
+    &--img {
+        width: 350px;
+        height: 200px;
+    }
+
+    &--date {
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-bottom: 7px;
+    }
+
+    &--title {
+        font-size: 1.65rem;
+        line-height: 1.1;
+        margin-bottom: 7px;
+
+        &:hover {
+            color: $mainBlue;
+        }
+    }
+
+    &--excerpt {
+        font-size: 1.2rem;
+        line-height: 1.1;
+        margin-bottom: 7px;
+    }
+    
+    &--link{
+        display: inline;
+        color: #000;
+        text-decoration: none;
+        font-size: 1rem;
+        
+        &:hover{
+            color: $mainBlue;
+        }
+    }
+
+    &--author {
+        font-size: 1.25rem;
+        line-height: 1;
+        margin-bottom: 7px;
+
+        &:hover {
+            color: $mainOrange;
+        }
+    }
+}
+
+.iaww-ad-banner {
+    margin: 3% auto;
+}

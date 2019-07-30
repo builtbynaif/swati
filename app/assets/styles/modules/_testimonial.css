@@ -13,3 +13,50 @@
        
     }
 }
+/* temp Styles */
+
+
+.float--left {
+    padding-bottom: 10px;
+
+}
+
+@media (min-width: 530px){
+
+.float--left {
+        float: left;
+        width: 40%;
+        padding: 0 20px 20px 0
+
+}
+    }
+
+.float--right {
+     padding-bottom: 10px;
+}
+
+@media (min-width: 530px){
+
+.float--right {
+        float: right;
+        width: 40%;
+        padding: 0 0 20px 20px
+}
+    }
+
+.float--none {
+    padding: 20px 0;
+}
+
+.article p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    word-spacing: 0.175em;
+    color: #333;
+}
+
+.article h2 {
+    font-size: 1.75rem;
+    letter-spacing: 0.1em;
+}  

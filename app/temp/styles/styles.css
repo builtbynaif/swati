@@ -462,7 +462,7 @@ template {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #333;
     overflow-x: hidden;
     cursor: url('/assets/images/cusor.png'), default;
@@ -519,7 +519,7 @@ h5 {
 
 .wrapper--product {
         width: 90%;
-        margin:0 auto;
+        margin:5% auto;
         max-width: 1236px;
         overflow: hidden;
     }
@@ -965,7 +965,7 @@ h5 {
     }
 
 .section-title--blue{
-        color: #156AED;
+        color: #B58019;
     }
 
 .section-title--less-margin{
@@ -1053,6 +1053,53 @@ h5 {
             line-height: 1.3;
             padding:0 0 5% 0;
         }
+
+/* temp Styles */
+
+.float--left {
+    padding-bottom: 10px;
+
+}
+
+@media (min-width: 530px){
+
+.float--left {
+        float: left;
+        width: 40%;
+        padding: 0 20px 20px 0
+
+}
+    }
+
+.float--right {
+     padding-bottom: 10px;
+}
+
+@media (min-width: 530px){
+
+.float--right {
+        float: right;
+        width: 40%;
+        padding: 0 0 20px 20px
+}
+    }
+
+.float--none {
+    padding: 20px 0;
+}
+
+.article p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    word-spacing: 0.175em;
+    color: #333;
+}
+
+.article h2 {
+    font-size: 1.75rem;
+    letter-spacing: 0.1em;
+}
 
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp. Instead edit gulp/templates/sprite */
 
@@ -2375,3 +2422,93 @@ h5 {
         transition: .55s cubic-bezier(0.25, 0.46, 0.45, 0.94) opacity, .55s cubic-bezier(0.25, 0.46, 0.45, 0.94)
 }
     }
+
+.iaww-posts {
+    display: block;
+    padding: 10px 0;
+    border-bottom: solid 1px #eee;
+}
+
+@media (min-width: 778px){
+
+.iaww-posts {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+                flex-direction: row-reverse
+}
+    }
+
+.iaww-posts--inner {
+        padding-top: 10px;
+    }
+
+@media (min-width: 778px){
+
+.iaww-posts--inner {
+            -ms-flex-preferred-size: 60%;
+                flex-basis: 60%;
+            padding-top: 0
+    }
+    }
+
+.iaww-posts--img {
+        width: 350px;
+        height: 200px;
+    }
+
+.iaww-posts--date {
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-bottom: 7px;
+    }
+
+.iaww-posts--title {
+        font-size: 1.65rem;
+        line-height: 1.1;
+        margin-bottom: 7px;
+    }
+
+.iaww-posts--title:hover {
+            color: #156AED;
+        }
+
+.iaww-posts--excerpt {
+        font-size: 1.2rem;
+        line-height: 1.1;
+        margin-bottom: 7px;
+    }
+
+.iaww-posts--link{
+        display: inline;
+        color: #000;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+.iaww-posts--link:hover{
+            color: #156AED;
+        }
+
+.iaww-posts--author {
+        font-size: 1.25rem;
+        line-height: 1;
+        margin-bottom: 7px;
+    }
+
+.iaww-posts--author:hover {
+            color: #B58019;
+        }
+
+.iaww-ad-banner {
+    margin: 3% auto;
+}

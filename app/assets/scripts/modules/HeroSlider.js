@@ -9,7 +9,7 @@ class HeroSlider {
 
     initSlider() {
         this.els.slick({
-            autoplay: false,
+            autoplay: true,
             arrows: false,
             dots: true,
             infinite: true,
